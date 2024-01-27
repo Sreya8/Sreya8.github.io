@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 1239px;
+}
+
+/* Sticky Navbar Styles */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    /* position: relative; */
+    top: 0;
+    /* margin: 0 auto; */
+    z-index: 1000;
+    padding: 20px 0 20px 0;
+    font-size: small;
+    resize: none;
+    width: 1239px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* Main Events text on the left */
+.main-events {
+    float: left;
+    padding: 10px 20px;
+    color: rgb(171, 149, 92);
+    margin-left: 120px;
+    /* font-size: small; */
+}
+
+/* Navigation links on the right */
+.navbar-right {
+    float: right;
+    /* margin-right: 160px; */
+    margin-left: 187px;
+    margin-right: 40px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.background-section {
+    width: 1239px;
+    height: 900px;
+    background: url(image3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.background-text {
+    text-align: center;
+    font-family: 'EB Garamond', 'Cormorant Garamond', serif;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 50px;
+
+}
+
+#home1 {
+    color: rgb(171, 149, 92);
+    ;
+}
+
+#unforgettable {
+    margin: 0;
+}
+
+#creating {
+    margin-bottom: 20px;
+}
+
+#memories {
+    margin-top: 20px;
+}
+
+/* Container holding the image and the text */
+.block2 {
+    position: relative;
+    text-align: left;
+    color: white;
+    /* width: 1239px; */
+}
+
+#flower1 {
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 80px;
+    /* width: 380px; */
+    width: 340px;
+    height: 580px;
+}
+
+
+#services {
+    position: absolute;
+    top: 190px;
+    left: 130px;
+    font-family: Helvetica, 'Gothic A1', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1rem;
+}
+
+#dream1 {
+    position: absolute;
+    top: 330px;
+    left: 130px;
+    font-family: 'EB Garamond', 'Cormorant Garamond', serif;
+    letter-spacing: .2rem;
+    font-size: 20px;
+}
+
+#dream2 {
+    position: absolute;
+    top: 370px;
+    left: 215px;
+    font-family: 'EB Garamond', 'Cormorant Garamond', serif;
+    letter-spacing: .2rem;
+    font-size: 20px;
+}
+
+#discover {
+    position: absolute;
+    top: 475px;
+    left: 120px;
+    font-family: Helvetica, 'Gothic A1', sans-serif;
+    border: solid;
+    border-width: 1px;
+    padding: 12px 85px;
+}
+
+#image1 {
+    float: right;
+    padding-top: 80px;
+    padding-right: 80px;
+    /* height: 545px; */
+}
+
+.clear {
+    clear: both;
+}
+
+.block3 {
+    position: relative;
+    text-align: center;
+    margin: 80px;
+}
+
+#quotes {
+    width: 45px;
+    position: absolute;
+    top: 100px;
+    left: 515px;
+}
+
+#testimonial {
+    font-family: 'EB Garamond', 'Cormorant Garamond', serif;
+    font-size: 35px;
+    letter-spacing: .2rem;
+    padding-top: 200px;
+}
+
+#jimmy {
+    color: rgb(171, 149, 92);
+    padding: 25px;
+    padding-bottom: 100px;
+}
+
+#left-arrow {
+    position: absolute;
+    color: rgb(171, 149, 92);
+    font-size: 50px;
+    top: 190px;
+    font-family: 'Cormorant Garamond' Arial, sans-serif;
+}
+
+#right-arrow {
+    float: right;
+    color: rgb(171, 149, 92);
+    font-size: 50px;
+    padding-top: 190px;
+    font-family: 'Cormorant Garamond' Arial, sans-serif;
+}
+
+.block4 {
+    width: 1239px;
+    position: relative;
+    color: white;
+}
+
+.background-section2 {
+    height: 780px;
+    background: url(image2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 80px;
+}
+
+#flower2 {
+    /* position: relative; */
+    float: right;
+    margin-right: 160px;
+    margin-top: 100px;
+    width: 340px;
+    height: 580px;
+}
+
+#gallery {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    font-family: Helvetica, 'Gothic A1', sans-serif;
+    font-size: 26px;
+    letter-spacing: 1rem;
+}
+
+#memories1 {
+    position: absolute;
+    top: 360px;
+    left: 815px;
+    font-family: 'EB Garamond', 'Cormorant Garamond', serif;
+    letter-spacing: .35rem;
+    font-size: 22px;
+}
+
+#memories2 {
+    position: absolute;
+    top: 400px;
+    left: 845px;
+    font-family: 'EB Garamond', 'Cormorant Garamond', serif;
+    letter-spacing: .35rem;
+    font-size: 22px;
+}
+
+#discover2 {
+    position: absolute;
+    top: 490px;
+    left: 805px;
+    font-family: Helvetica, 'Gothic A1', sans-serif;
+    border: solid;
+    border-width: 1px;
+    padding: 12px 60px;
+}
+
+.lastblock {
+    width: 1239px;
+    position: relative;
+}
+
+#contactdetails {
+    margin: 80px 80px 30px 80px;
+    color: black;
+    background-color: rgb(171, 149, 92);
+    height: 200px;
+}
+
+#address {
+    position: absolute;
+    display: flex;
+    top: 60px;
+    left: 160px;
+    padding-right: 30px;
+    border-right: solid;
+    border-width: 1px;
+    color: white;
+    overflow-wrap: anywhere;
+    width: 136px;
+}
+
+#tel {
+    position: absolute;
+    display: flex;
+    overflow-wrap: anywhere;
+    width: 136px;
+    top: 60px;
+    left: 360px;
+    padding-right: 30px;
+    color: white;
+}
+
+#copyright {
+    position: absolute;
+    display: flex;
+    overflow-wrap: anywhere;
+    width: 200px;
+    top: 60px;
+    left: 520px;
+    padding-left: 30px;
+    border-left: solid;
+    border-width: 1px;
+    color: white;
+}
+
+.details {
+    margin: 0;
+}
+
+#consultation {
+    position: absolute;
+    top: 60px;
+    left: 840px;
+    font-family: Helvetica, 'Gothic A1', sans-serif;
+    border: solid;
+    border-width: 1px;
+    padding: 12px 20px;
+    color: white;
+}
