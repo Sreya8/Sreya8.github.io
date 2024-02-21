@@ -1,0 +1,65 @@
+{
+    "company_profile": {
+        "country": "US",
+        "currency": "USD",
+        "estimateCurrency": "USD",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "finnhubIndustry": "Technology",
+        "ipo": "1980-12-12",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.svg",
+        "marketCapitalization": 2857365.541031329,
+        "name": "Apple Inc",
+        "phone": "14089961010",
+        "shareOutstanding": 15441.88,
+        "ticker": "AAPL",
+        "weburl": "https://www.apple.com/"
+    },
+    "recommendation_trends": [
+        {
+            "buy": 19,
+            "hold": 13,
+            "period": "2024-02-01",
+            "sell": 2,
+            "strongBuy": 12,
+            "strongSell": 0,
+            "symbol": "AAPL"
+        },
+        {
+            "buy": 22,
+            "hold": 13,
+            "period": "2024-01-01",
+            "sell": 1,
+            "strongBuy": 12,
+            "strongSell": 0,
+            "symbol": "AAPL"
+        },
+        {
+            "buy": 24,
+            "hold": 13,
+            "period": "2023-12-01",
+            "sell": 1,
+            "strongBuy": 12,
+            "strongSell": 0,
+            "symbol": "AAPL"
+        },
+        {
+            "buy": 21,
+            "hold": 13,
+            "period": "2023-11-01",
+            "sell": 1,
+            "strongBuy": 13,
+            "strongSell": 0,
+            "symbol": "AAPL"
+        }
+    ],
+    "stock_quote": {
+        "c": 185.04,
+        "d": -2.11,
+        "dp": -1.1274,
+        "h": 186.21,
+        "l": 183.5128,
+        "o": 185.77,
+        "pc": 187.15,
+        "t": 1707858002
+    }
+}
