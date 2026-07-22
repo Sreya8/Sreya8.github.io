@@ -489,12 +489,7 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-start-a-software-engineer-for-analytics-internship-at-easley-dunn-productions-inc-contributing-to-the-mediverse-vr-project-i-ll-be-working-on-building-analytics-pipelines-and-turning-vr-data-into-actionable-insights",
           title: 'Excited to start a Software Engineer for Analytics internship at Easley Dunn Productions,...',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
+          section: "News",},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
@@ -524,6 +519,11 @@ ninja.data = [{
           description: "An agentic RAG pipeline integrating multiple LLMs with LangChain, RESTful APIs, and custom tools for automated research workflows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/RAG_Agent/";
+            },},{id: "projects-robinhood-clone-stock-trading-platform",
+          title: 'Robinhood Clone (Stock Trading Platform)',
+          description: "Full-stack stock trading platform with real-time market data, portfolio management, and simulated trading.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Robinhood_Clone/";
             },},{id: "projects-depression-detection-with-audio-text-transformers",
           title: 'Depression Detection with Audio-Text Transformers',
           description: "Multi-modal transformer approach for detecting depression from audio and text.",
